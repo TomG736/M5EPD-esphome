@@ -52,7 +52,7 @@ void M5EPD::begin(bool touchEnable, bool SDEnable, bool SerialEnable, bool Batte
     if (SDEnable == true)
     {
         SPI.begin(14, 13, 12, 4);
-        SD.begin(4, SPI, 20000000);
+        // SD.begin(4, SPI, 20000000);
     }
 
     if (touchEnable == true)
