@@ -5,7 +5,7 @@
 #include <Wire.h>
 #include <SPI.h>
 #include "FS.h"
-#include "SD.h"
+// #include "SD.h"
 #include "utility/Button.h"
 #include "utility/GT911.h"
 #include "utility/BM8563.h"

@@ -1,7 +1,7 @@
 #ifndef __FFSUPPORT_H
 #define __FFSUPPORT_H
 
-#include "SD.h"
+// #include "SD.h"
 #include "SPIFFS.h"
 
 #define FT_FILE     fileclass_t
