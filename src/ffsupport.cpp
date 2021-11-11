@@ -1,16 +1,16 @@
 #include "ffsupport.h"
 
 fileclass_t fileclass;
-fs::FS &fontFS = SD;
+// fs::FS &fontFS = SD;
 
 void ffsupport_setffs(fs::FS &ffs)
 {
-    fontFS = ffs;
+    // fontFS = ffs;
 }
 
 fileclass_t* ffsupport_fopen(const char *Filename, const char *mode)
 {
-    fileclass._fstream = fontFS.open(Filename, mode);
+//     fileclass._fstream = fontFS.open(Filename, mode);
     return &fileclass;
 }
 
